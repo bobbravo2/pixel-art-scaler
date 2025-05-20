@@ -120,3 +120,9 @@ After detecting the scale, it:
 - NumPy
 - SciPy
 - PySide6 (for GUI version)
+
+## Next Agent: Package for Homebrew on macOS
+
+To make this tool available via Homebrew, create a formula that downloads the
+latest wheel from GitHub Releases and installs the `pixel-art-scaler` command.
+Ensure the formula sets up Python dependencies and links the CLI entry point.
